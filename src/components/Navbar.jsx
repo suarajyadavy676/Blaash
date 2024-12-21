@@ -3,14 +3,10 @@ import NavDrawer from "./NavDrawer";
 import { FaRegUserCircle } from "react-icons/fa";
 import { IoIosNotifications } from "react-icons/io";
 import { CiSearch } from "react-icons/ci";
-import { fetchData } from "../utils/rapidApi";
-
 function Navbar() {
   
   useEffect(() => {
-    
-
-    fetchData(); // Call the async function
+  
   }, []); // Empty dependency array to run only once on component mount
   
   return (
